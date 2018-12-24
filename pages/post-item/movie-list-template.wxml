@@ -1,0 +1,4 @@
+<!-- 电影列表页面item -->
+<template name = "movie-item">
+  
+</template>

@@ -1,0 +1,17 @@
+<!-- 新闻列表页面item -->
+
+<import src="./bottom-view-template.wxml"/>
+
+<template name="postItem">
+  <view class='post_container'>
+    <view class='post_header'>
+      <image class='post_header_icon' src='{{item.author_img}}'></image>
+      <text class='post_header_text'>{{item.date}}</text>
+    </view>
+    <text class='post_title_text'>{{item.title}}{{item.index}}</text>
+    <image class='post_image' src="{{item.post_img}}"></image>
+    <text class='post_content'>{{item.content}}</text>
+    <template is="bottom-view" data="{{item}}" />
+  </view>
+
+</template>

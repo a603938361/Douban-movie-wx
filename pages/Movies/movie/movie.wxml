@@ -1,0 +1,10 @@
+<import src="../stars/stars.wxml"/>
+
+<!-- /单独电影模块 -->
+<template name="movie-template">
+  <view class='movie-container' catchtap='jumpDetail' data-movieId='{{movieId}}'>
+    <image class='movie-img' src="{{coverageUrl}}"></image>
+    <text class='movie-title'>{{title}}</text>
+    <template is="starsTemplate" data="{{average:average, star:star}}" />
+  </view>
+</template>

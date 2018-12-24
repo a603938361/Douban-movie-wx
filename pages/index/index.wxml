@@ -1,0 +1,10 @@
+<view class='container'>
+  <image class='user_header' src="{{g_userInfo.avatarUrl}}"></image>
+  <text class='user_name'>{{g_userInfo.nickName}}</text>
+
+<button open-type='getUserInfo' bindgetuserinfo="getUserInfo">获取用户信息</button>
+<!-- <text catchtap='getUserinfo'>获取用户信息</text> -->
+  <view class='moto_content' bindtap="onTap">
+    <text class='user_content'>Go!</text>
+  </view>
+</view>

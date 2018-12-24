@@ -1,0 +1,63 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.1",
+	"appid": "wx887958a83d4612da",
+	"projectname": "122",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": 0,
+					"name": "自定义   文件",
+					"pathName": "pages/index/index",
+					"query": "text=eee",
+					"scene": "1037",
+					"referrerInfo": {
+						"appId": "wx887958a83d4612da",
+						"extraData": "{}"
+					}
+				},
+				{
+					"id": 1,
+					"name": "自定义   文件",
+					"pathName": "pages/index/index",
+					"query": "text=eee",
+					"scene": "1038",
+					"referrerInfo": {
+						"appId": "wx887958a83d4612da",
+						"extraData": "{}"
+					}
+				}
+			]
+		}
+	}
+}

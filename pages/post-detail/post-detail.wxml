@@ -1,0 +1,25 @@
+<!-- 先静后动， 先样式再数据 -->
+
+<view class='detail-container'>
+  <image class='head-image' src="{{isPlay ? postData.music.coverImg : postData.headImageSrc}}"></image>
+  <image class='audio' src="{{isPlay?'/pages/img/music/music-start.png' : '/pages/img/music/music-stop.png'}}" bindtap='clickMusic'></image>
+
+  <view class='author-date'>
+    <image class='avatar' src='{{postData.author_img}}'></image>
+    <text class='author'>{{postData.author}}</text>
+    <text class='const-text'>发布于</text>
+    <text class='date'>{{postData.dateTime}}</text>
+  </view>
+  <text class='title'>{{postData.title}}</text>
+
+  <view class='tool'>
+    <view class='circle-img'>
+      <image wx:if="{{collected}}" src='../img/icon/collection.png' bindtap='clickShare' data-shareurl='www.sephora.cn'></image>
+      <image wx:else src='../img/icon/collection-anti.png' bindtap='clickShare' data-shareurl='www.sephora.cn'></image>
+
+      <image class='share-img' src='../img/email.png' bindtap='clickEmail' data-email='sephora@qq.com'></image>
+    </view>
+    <view class='horizon'></view>
+  </view>
+  <text class='detail'>{{postData.content}}</text>
+</view>

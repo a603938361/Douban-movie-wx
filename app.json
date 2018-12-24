@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Home/Home",
+    "pages/Movies/Movies",
+    "pages/post-detail/post-detail",
+    "pages/Top250/Top250",
+    "pages/Movies/Movies-detail/Movies-detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "text": "Home",
+        "iconPath": "pages/img/home.png",
+        "selectedIconPath": "pages/img/home1.png"
+      },
+      {
+        "pagePath": "pages/Movies/Movies",
+        "text": "Movie",
+        "iconPath": "pages/img/me.png",
+        "selectedIconPath": "pages/img/me1.png"
+      }
+    ],
+    "borderStyle": "black",
+    "position": "bottom"
+  },
+  "navigateToMiniProgramAppIdList" : [
+    "wx887958a83d4612da"
+  ]
+}

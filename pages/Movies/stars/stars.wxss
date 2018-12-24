@@ -1,0 +1,24 @@
+.stars-template {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  height: 17rpx;
+  margin-right: 24rpx;
+  vertical-align: middle;
+}
+
+.stars image {
+  padding-left: 3rpx;
+  height: 17rpx;
+  width: 17rpx;
+  padding-top: 8rpx;
+}
+
+.stars-score {
+  color: #223;
+  font-size: 24rpx;
+}

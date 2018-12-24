@@ -1,0 +1,10 @@
+<!-- 列表页面底部喜欢点赞view -->
+
+<template name="bottom-view">
+  <view class='post_like'>
+      <image catchtap='clickLike' data-postid='{{item.postId}}' class='post_like_image' src='/pages/img/收藏.png'></image>
+      <text catchtap='clickLike' data-postid='{{item.postId}}' class='post_like_font'>{{item.view_num}}</text>
+      <image class='post_like_image' src='/pages/img/赞.png'></image>
+      <text class='post_like_font'>{{item.collect_num}}</text>
+    </view>
+</template>

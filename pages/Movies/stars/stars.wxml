@@ -1,0 +1,19 @@
+<!-- 电影星星 -->
+<template name="starsTemplate">
+  <view class='stars-template'>
+    <view class='stars'>
+    <block wx:for="{{star}}" wx:for-item="i" wx:key="i">
+     <image wx:if="{{i}}" src='/pages/img/movie/star-shixin-sel.png'></image>
+      <image wx:else src='/pages/img/movie/star-shixin-nom.png'></image>
+
+    </block>
+      <!-- <image src='/pages/img/movie/star-shixin-sel.png'></image>
+      <image src='/pages/img/movie/star-shixin-sel.png'></image>
+      <image src='/pages/img/movie/star-shixin-sel.png'></image>
+      <image src='/pages/img/movie/star-shixin-sel.png'></image>
+      <image src='/pages/img/movie/star-shixin-sel.png'></image> -->
+    </view>
+
+    <text class='stars-score'>{{average}}</text>
+  </view>
+</template>

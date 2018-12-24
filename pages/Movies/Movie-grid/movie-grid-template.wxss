@@ -1,0 +1,10 @@
+@import "../movie/movie.wxss";
+
+.movie-grid-item {
+  float: left;
+  margin-bottom: 40rpx;
+}
+
+.grid-container {
+  margin: 40rpx 0rpx 40rpx 6rpx;
+}
